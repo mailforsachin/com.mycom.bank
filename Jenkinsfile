@@ -12,6 +12,12 @@ pipeline {
                 echo 'Testing..'
             }
         }
+          stage('Run myscript') {
+            steps {
+                sh './myscript.sh'
+            }
+        }
+        
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
