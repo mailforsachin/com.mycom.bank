@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/sumeshkanayi/com.mycom.bank.git']]])
         
     stages {
         stage('Build') {
