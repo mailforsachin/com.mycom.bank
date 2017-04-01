@@ -15,7 +15,7 @@ pipeline {
           stage('Run myscript') {
             steps {
                 sh 'ls'
-                sh '/myscript.sh'
+                sh 'myscript.sh'
             }
         }
         
