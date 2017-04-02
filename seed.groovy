@@ -1,7 +1,7 @@
 freeStyleJob('example') {
     
     scm {
-        github('jenkinsci/job-dsl-plugin', 'master')
+        github('https://github.com/sumeshkanayi/com.mycom.bank.git', 'master')
     }
   
     steps {
