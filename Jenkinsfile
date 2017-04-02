@@ -16,7 +16,7 @@ pipeline {
             steps {
                 
               
-    sh('./myscript.sh')
+    sh('python test.py')
 
                
                
