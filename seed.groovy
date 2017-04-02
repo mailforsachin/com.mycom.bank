@@ -1,7 +1,7 @@
 freeStyleJob('example') {
     
     scm {
-        github('https://github.com/sumeshkanayi/com.mycom.bank.git', 'master')
+        git('https://github.com/sumeshkanayi/com.mycom.bank.git', 'master')
     }
   
     steps {
